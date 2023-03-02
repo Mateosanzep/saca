@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+}
+
+.nav-bar{
+    width: 100%;
+    border-style: none;
+    height: 86px;
+}
+
+body {
+    background-color: rgb(177, 232, 253);
+}
+
+.footer{
+    width: 100%;
+    border-style: none;
+    height: 225px;
+    margin-bottom: -5px;
+}
