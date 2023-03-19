@@ -1,0 +1,164 @@
+
+.landing {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #007bff;
+    min-height: 86.5vh;
+}
+.imagen{
+    
+    object-fit: cover;
+}
+
+.princi {
+    width: 100%;
+    height: 86.5vh;
+    filter: opacity(0.9);
+    object-fit: cover;
+}
+
+.bien{
+    display: flex;
+    flex-direction: column;
+    width: 100%;;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.wel{
+    font-size: 90px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.title{
+    color: #007bff;
+    margin: 10px;
+}
+.info{
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+}
+
+.linea{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+}
+.line{
+    border: 0;
+    height: 3px;
+    width: 65%;
+    background-color: #007bff;
+    border-radius: 50px;
+    
+}
+
+.carrusel{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    margin: 20px;
+}
+.titulo-carrusel{
+    
+    display: flex;
+    color: #007bff;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.div-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.fotos{
+    margin: 10px;
+}
+.fotos-bien{
+    width: 40vb;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 815px){
+    .landing {
+        display: flex;
+        background-color: #007bff;
+        min-height: 86.5vh;
+    }
+    .imagen{
+        object-fit: cover;
+        z-index: 1;
+    }
+    
+    .princi {
+        height: 100%;
+        filter: opacity(0.8);
+        object-fit: cover;
+    }
+    
+    .bien{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        width: 100%;;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        z-index: 2;
+    }
+    .wel{
+        font-size: 70px;
+    }
+    .fotos-bien{
+        width: 30vb;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+        
+    }
+    .carrusel{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        margin: 0px;
+    }
+    .titulo-carrusel{
+        
+        display: flex;
+        color: #007bff;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+    .div-fotos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .fotos{
+        margin-bottom: 10px;
+    }
+}
