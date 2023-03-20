@@ -1,0 +1,301 @@
+
+
+.proximo-div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-content: center;
+    background-color: #007bff;
+    margin: 20px;
+   border-radius: 30px;
+}
+.proximo-titulo{
+  grid-column: 1/3;
+  
+  color: #ffffff;
+    margin: 15px;
+    margin-bottom: -5px;
+    justify-self: center;
+  align-self: center;
+  text-align: center;
+
+ 
+    
+}
+.linea-titulo-proximo{
+    grid-column: 1/3;
+    border: 0;
+    height: 3px;
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 50px;
+    justify-self: center;
+  align-self: center;
+  max-width: 430px;
+  min-width: 200px;
+  
+}
+
+.foto-proximo-evento{
+    justify-self: center;
+  align-self: center;
+  padding: 20px;
+
+}
+
+.foto-prox{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    max-width: 300px;
+}
+.explicacion-proximo-evento{
+    background-color: rgba(255, 255, 255, 0.911);
+    color: #007bff;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    max-width: 500px;
+    justify-self: center;
+  align-self: center;
+  text-align: center;
+
+}
+.proximo-concierto{
+    text-align: center;
+    
+
+}
+.texto-concierto{
+    padding: 20px;
+    align-content: center;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
+
+.fut-tabla{
+    display: grid;
+    grid-template-columns: 35% 10% 10% 10% 35%;
+    background-color: #007bff;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+.titulo-fut{
+    grid-column: 1/6;
+    color: #ffffff;
+    justify-self: center;
+  align-self: center;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+.fut-linea{
+    grid-column: 1/6;
+    border: 0;
+    height: 3px;
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 50px;
+    justify-self: center;
+  align-self: center;
+  max-width: 430px;
+  min-width: 200px;
+  margin-bottom: 30px;
+}
+
+.equipo   {
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 25px;
+    max-width: 300px;
+    text-align: center;
+
+}
+.logo-casas{
+    width: 60px;
+}
+
+.vikingos{
+    grid-column: 1/2;
+    color: rgb(255, 208, 0);
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.romanos{
+    color: rgb(192, 0, 0);
+    grid-column: 5/6;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+.aztecas{
+    color: rgb(18, 221, 0);
+    grid-column: 5/6;
+    text-align: center;
+
+}
+.samurais{
+    color: #000;
+    grid-column: 1/2;
+    text-align: center;
+
+}
+
+.vs{
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 30px;
+    grid-column: 3/4;
+    text-align: center;
+
+}
+.guion{
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
+.resultado{
+    justify-self: Center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+
+}
+.resul-azt{
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+.resul-sam{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.resul-rom{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    margin-bottom: 40px;
+}
+.resul-vik{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-bottom: 40px;
+}
+.vs1{
+    margin-bottom: 40px;
+}
+
+
+
+.titulo-casas{
+    z-index: 0;
+    order: 0;
+    text-align: center;
+
+}
+.linea-casas{
+    z-index: 1;
+    order: 1;
+    margin-bottom: 10px;
+}
+.img-casas{
+    z-index: 3;
+    order: 3;
+}
+.texto-casas{
+    z-index: 2;
+    order: 2;
+    text-align: center;
+
+}
+
+.foto-casas{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    max-width: 380px;
+}
+
+
+@media screen and (max-width: 750px){
+    .proximo-div{
+        margin: 0px;
+        margin-top: 10px;
+        border-radius: 0%;
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+    .explicacion-proximo-evento{
+        margin: 0%;
+        border-radius: 0%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .div-casas{
+        margin-bottom: 10px;
+    }
+    .nombre-casas{
+        display: none;
+    }
+    .fut-tabla{
+        display: grid;
+        grid-template-columns: 40% 20% 40%;
+        margin: 0px;
+        margin-top: 10px;
+        border-radius: 0%;
+    }
+    .titulo-fut{
+        font-size: 40px;
+    }
+    .vs1{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: 0px;
+    }
+    .vs2{
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    .resul-vik{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        margin-bottom: 40px;
+    }
+    .resul-sam{
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+    .vikingos{
+        margin: 0px;
+    }
+    .romanos{
+        margin: 0px;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+    .resul-rom{
+        grid-column: 3/4;
+        grid-row: 4/5;
+        margin-bottom: 40px;
+    }
+    .aztecas{
+        grid-column: 3/4;
+        grid-row: 5/6;
+    }
+    .resul-azt{
+        grid-column: 3/4;
+        grid-row: 6/7;
+    }
+}
