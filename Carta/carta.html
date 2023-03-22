@@ -5,17 +5,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>carta</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="import" href="nav-bar.html">
+    <link rel="stylesheet" href="../General/style.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="carta.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 <body>
-    <header>
-        <iframe src="nav-bar.html" frameborder="0" class="nav-bar"></iframe>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light  sticky-top">
+        <a class="navbar-brand text-white" href="../Homepage/homepage.html" target="_top" class="logo-completo">
+          <img src="../General/Logos/Untitled.png" alt="Logo" width="60" class="logo"><b>  SACA</b>
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-xl-center" id="navbarNav" class="divardo">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../Eventos/eventos.html" target="_top"><b>Eventos</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../Conocenos/conocenos.html" target="_top"><b>Conocenos</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="../Carta/carta.html" target="_top"><b>Manda Tu Carta</b> </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+<div class="titulo">
+    <p>We are looking for you</p>
+</div>
+<div class="linea-titulo"></div>
     
-    <footer>
-        <iframe src="footer.html" frameborder="0" class="footer" scrolling="no"></iframe>
-    </footer>
+<div class="div-forms">
+    <form action="" class="form">
+        <label for="nombre" class="nom-label">Name:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Name">
+        <label for="apellido" class="apellido-label">Last Name:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Last name">
+        <label for="grado" class="grado-label">Group:</label>
+        <select name="grado" id="grado">
+            <option value="select">Select</option>
+            <option value="9a">9°A</option>
+            <option value="9b">9°B</option>
+            <option value="10a">10°A</option>
+            <option value="10b">10°B</option>
+            <option value="11a">11°A</option>
+            <option value="11b">11°B</option>
+            <option value="12a">12°A</option>
+            <option value="12b">12°B</option>
+        </select>
+        <label for="correo" class="correo-label">Email:</label>
+        <input type="email" name="correo" id="correo" placeholder="example@mail.com">
+        <label for="tel" class="tel-label">Phone:</label>
+        <input type="tel" name="tel" id="tel" placeholder="33 1234 5678">
+        <label for="porque" class="porque-label">Why you?</label>
+        <input type="text" name="porque" id="porque" placeholder="Explain why we need to choose you">
+        <label for="puesto" class="puesto-label">What do you want to do?</label>
+        <select name="puesto" id="puesto">
+            <option value="select">Select</option>
+            <option value="comunicacion">Comunication</option>
+            <option value="logistica">Logistic</option>
+            <option value="staff">Staff</option>
+            <option value="organizador">Planner</option>
+            <option value="diseño">Design</option>
+        </select>
+        <input type="submit" value="Send" class="send">
+    </form>
+</div>
+
+<div class="div-explicacion">
+    <div class="tutulo-explicacion">
+        This is the explanation of the jobs
+    </div>
+    <div class="linea-explicacion"></div>
+        <div class="trabajo">Comunication</div>
+        <div class="texto-job">In this position you are going to make sure that all the people of the school find out about the activities. Both upload things on social networks or in the same WhatsApp groups.</div>
+        <div class="trabajo">Logistic</div>
+        <div class="texto-job">Your responsibility is to have a very good control of everything that is done. Know how much is spent on activities to have control. Ask permissions for anything. Knowing what activities can be done so that together with everyone it is organized.</div>
+        <div class="trabajo">Staff</div>
+        <div class="texto-job">You will have to assemble all the material that is used in the different activities.</div>
+        <div class="trabajo">Planner</div>
+        <div class="texto-job">Your job is to organize all the activities that are done. This implies taking out costs, materials, for what people, where and all these kinds of things.</div>
+        <div class="trabajo">Design</div>
+        <div class="texto-job">You are responsible for making posters, making flyers or doing anything else that is required for a design.</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <ul class="list-unstyled">
+                <li><a href="https://www.instagram.com/saca_altamira/" target="_blank" class="btn btn-primary mb-3"><img src="../General/Logos/Instagram_logo_2022.svg.png" alt="Instagram">  saca_altamira</a></li>
+                <li><a href="https://www.colegioaltamira.edu.mx/" target="_blank" class="btn btn-primary mb-3"><img src="https://www.colegioaltamira.edu.mx/assets/img/logos/LogoColegioAltamiraBcoH.svg" alt="Colegio Altamira">  Colegio Altamira</a></li>
+                <li><a href="https://www.facebook.com/SACA.altamira" target="_blank" class="btn btn-primary mb-3"><img src="../General/Logos/white-facebook-icon-png-29.jpg" alt="Facebook">  Sociedad de Alumnos Altamira</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6">
+              <ul class="list-unstyled">
+                <li><strong>Dirección:</strong> Avenida Moctezuma</li>
+                <li><strong>Teléfono:</strong> 33 2839 2072</li>
+                <li><strong>Correo electrónico:</strong> saca.altamira@aktamira.edu.mx</li>
+                <li><a href="#" class="terminos">Política de privacidad</a></li>
+                <li><a href="#" class="terminos">Términos y condiciones</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+      <script>window.addEventListener('scroll', function() {
+        var navbar = document.querySelector('.navbar');
+        if (window.scrollY > 80) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });</script>
+    
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
 </body>
 </html>
