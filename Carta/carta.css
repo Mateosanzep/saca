@@ -7,3 +7,37 @@
     display: grid;
     grid-template-columns: 15% 35% 15% 35%;
 }
+
+.titulo{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.titulo>p{
+    color: #007bff;
+    justify-self: center;
+    align-self: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.linea-titulo{
+    border: 0;
+    height: 3px;
+    width: 45%;
+    background-color:#007bff;
+    border-radius: 50px;
+    justify-self: center;
+  align-self: center;
+  max-width: 605px;
+  min-width: 200px;
+  margin-bottom: 30px;
+}
+
+.div-forms{
+    background-color: #007bff;
+    padding: 30px;
+    color: white;
+    font-weight: bolder;
+}
