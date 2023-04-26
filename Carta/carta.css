@@ -1,6 +1,7 @@
 .div-explicacion{
     display: grid;
     grid-template-columns: 30% 70%;
+    background-color: #007bff;
 }
 
 .form{
@@ -41,3 +42,4 @@
     color: white;
     font-weight: bolder;
 }
+
